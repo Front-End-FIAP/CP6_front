@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html { color-scheme: light; }
+  body { margin: 0; background: #fafaf9; color: #191919; }
+  button, a, select, input { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+  button, select { cursor: pointer; }
+  a, button { transition: color 160ms, background-color 160ms, border-color 160ms; }
+  :focus-visible { outline: 2px solid #191919; outline-offset: 5px; }
+  h1, h2, h3 { text-wrap: balance; }
+  ::selection { background: #d6d3d1; color: #191919; }
+}
+
+@layer components {
+  .page-width { @apply mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-16; }
+  .wordmark { @apply font-display text-4xl font-bold tracking-tighter hover:text-neutral-600; }
+  .eyebrow { @apply text-[10px] font-semibold uppercase tracking-[0.22em] text-neutral-600; }
+  .nav-link { @apply border-b border-transparent py-2 text-sm text-neutral-600 hover:border-neutral-400 hover:text-black; }
+  .nav-active { @apply border-neutral-900 text-neutral-950; }
+  .button-dark { @apply inline-flex min-h-12 items-center justify-center gap-8 bg-neutral-900 px-6 py-3 text-sm text-white hover:bg-neutral-700; }
+  .button-light { @apply inline-flex min-h-12 items-center justify-center gap-8 border border-neutral-300 px-6 py-3 text-sm hover:border-neutral-900 hover:bg-neutral-100; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
