@@ -7,7 +7,7 @@ export const carros = [
     cambio: 'Automático',
     lugares: 4,
     diaria: 2490,
-    imagem: '/images/porsche.jpg',
+    imagem: `${import.meta.env.BASE_URL}images/porsche.jpg`,
     descricao: 'Um ícone de design e performance para transformar o trajeto em destino.',
   },
   {
@@ -18,7 +18,7 @@ export const carros = [
     cambio: 'Automático',
     lugares: 5,
     diaria: 1490,
-    imagem: '/images/bmw.jpg',
+    imagem: `${import.meta.env.BASE_URL}images/bmw.jpg`,
     descricao: 'Equilíbrio entre conforto e esportividade, da rotina à próxima viagem.',
   },
   {
@@ -29,7 +29,7 @@ export const carros = [
     cambio: 'Automático',
     lugares: 2,
     diaria: 2990,
-    imagem: '/images/mercedes.jpg',
+    imagem: `${import.meta.env.BASE_URL}images/mercedes.jpg`,
     descricao: 'Linhas marcantes e espírito esportivo para uma experiência ao volante.',
   },
 ]
