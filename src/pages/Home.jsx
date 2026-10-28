@@ -15,11 +15,11 @@ export default function Home() {
           </div>
         </div>
         <div className="relative overflow-hidden bg-neutral-200">
-          <img src="/images/porsche.jpg" alt="Porsche esportivo em uma estrada cercada de árvores" width="1800" height="1200" fetchPriority="high" className="h-72 w-full object-cover object-[center_58%] sm:h-[430px]" />
+          <img src="/images/porsche.jpg" alt="Porsche Panamera preto em movimento em uma avenida" width="1800" height="1200" fetchPriority="high" className="h-72 w-full object-cover object-[center_58%] sm:h-[430px]" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" aria-hidden="true" />
           <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-6 text-white sm:p-9">
-            <div><p className="mb-2 text-[10px] uppercase tracking-[0.22em] text-white/80">Em destaque</p><p className="font-display text-3xl sm:text-4xl">Porsche 911 Carrera</p></div>
-            <Link to="/carros?marca=Porsche" aria-label="Conheça o Porsche 911 Carrera" className="flex size-12 shrink-0 items-center justify-center rounded-full border border-white/70 text-xl hover:bg-white hover:text-black">↗</Link>
+            <div><p className="mb-2 text-[10px] uppercase tracking-[0.22em] text-white/80">Em destaque</p><p className="font-display text-3xl sm:text-4xl">Porsche Panamera Turbo</p></div>
+            <Link to="/carros?marca=Porsche" aria-label="Conheça o Porsche Panamera Turbo" className="flex size-12 shrink-0 items-center justify-center rounded-full border border-white/70 text-xl hover:bg-white hover:text-black">↗</Link>
           </div>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-4 border-b border-neutral-200 py-6 text-[10px] font-medium uppercase tracking-[0.16em] text-neutral-600">
@@ -39,8 +39,8 @@ export default function Home() {
             <div className="flex items-center justify-between border-b border-neutral-200 py-5"><div><h3 className="font-display text-2xl">Presença no dia a dia</h3><p className="mt-1 text-sm text-neutral-600">Conheça nossa seleção BMW.</p></div><span aria-hidden="true">↗</span></div>
           </Link>
           <Link to="/carros?marca=Mercedes-Benz" className="group">
-            <div className="overflow-hidden bg-neutral-200"><img src="/images/mercedes.jpg" alt="Mercedes-Benz em destaque, representando a seleção de carros executivos" width="1000" height="667" loading="lazy" className="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" /></div>
-            <div className="flex items-center justify-between border-b border-neutral-200 py-5"><div><h3 className="font-display text-2xl">Conforto em cada detalhe</h3><p className="mt-1 text-sm text-neutral-600">Explore a linha Mercedes-Benz.</p></div><span aria-hidden="true">↗</span></div>
+            <div className="overflow-hidden bg-neutral-200"><img src="/images/mercedes.jpg" alt="Mercedes-Benz AMG GT cinza em destaque" width="1000" height="667" loading="lazy" className="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" /></div>
+            <div className="flex items-center justify-between border-b border-neutral-200 py-5"><div><h3 className="font-display text-2xl">Performance em cada detalhe</h3><p className="mt-1 text-sm text-neutral-600">Explore a linha Mercedes-Benz.</p></div><span aria-hidden="true">↗</span></div>
           </Link>
         </div>
       </section>
