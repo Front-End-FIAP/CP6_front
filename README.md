@@ -4,6 +4,8 @@ Projeto individual de Web Development para a turma 1ESPI de Engenharia de Softwa
 
 **Bruno Carreiro Dos Santos — RM 569423**
 
+Site: https://front-end-fiap.github.io/CP6_front/
+
 ## Tecnologias
 
 - React com Vite
@@ -59,3 +61,9 @@ Fotografias: [Porsche](https://images.unsplash.com/photo-1503376780353-7e6692767
 As tarefas de configuração, interface e catálogo são desenvolvidas em branches próprias, com pelo menos 3 commits semânticos por tarefa. Os PRs são direcionados à `dev`; a versão final é integrada à `main`.
 
 Repositório público: https://github.com/Front-End-FIAP/CP6_front
+
+## Publicação
+
+O GitHub Pages usa GitHub Actions como fonte de publicação. O workflow em `.github/workflows/deploy.yml` instala as dependências, verifica o código e publica somente a pasta `dist` a cada atualização da `main`.
+
+O Vite gera caminhos relativos para os arquivos. As rotas usam `HashRouter`, por exemplo `/#/carros`, para permitir abrir e atualizar as páginas em uma hospedagem estática.
