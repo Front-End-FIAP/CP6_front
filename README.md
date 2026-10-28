@@ -52,7 +52,7 @@ integrante.txt   Identificação para entrega
 
 Os carros, preços e a marca Vértice fazem parte de uma demonstração acadêmica. A simulação não envia dados, não cobra valores e não confirma uma reserva. As fotografias são ilustrativas.
 
-Fotografias: [Porsche](https://unsplash.com/photos/7euA-tPWWYk), [BMW](https://images.unsplash.com/photo-1555215695-3004980ad54e) e [Mercedes-Benz](https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8), disponibilizadas pelo Unsplash. Os arquivos são servidos localmente em `public/images`.
+Fotografias: [Porsche](https://images.unsplash.com/photo-1503376780353-7e6692767b70), [BMW](https://images.unsplash.com/photo-1555215695-3004980ad54e) e [Mercedes-Benz](https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8), disponibilizadas pelo Unsplash. Os arquivos são servidos localmente em `public/images`.
 
 ## Versionamento
 
